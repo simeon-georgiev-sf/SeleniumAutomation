@@ -4,11 +4,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>SimeonTestingLearning</groupId>
-	<artifactId>SeleniumFramework1</artifactId>
+	<groupId>com.github.simeon-georgiev-sf</groupId>
+	<artifactId>selenium-automation-framework</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-	<name>SeleniumFramework1</name>
+	<name>Selenium Automation</name>
 	<!-- FIXME change it to the project's website -->
 	<url>http://www.example.com</url>
 

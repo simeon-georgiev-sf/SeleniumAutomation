@@ -1,4 +1,4 @@
-package SimeonTestingLearning.SeleniumFramework1;
+package simeongeorgiev.testClasses;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -8,12 +8,12 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import SimeonTestingLearning.TestComponents.BaseTest;
-import SimeonTestingLearning.pageObjects.CheckoutPage;
-import SimeonTestingLearning.pageObjects.ConfirmationPage;
-import SimeonTestingLearning.pageObjects.OrderCheckout;
-import SimeonTestingLearning.pageObjects.OrderPage;
-import SimeonTestingLearning.pageObjects.ProductCatalogue;
+import simeongeorgiev.testComponents.BaseTest;
+import simeongeorgiev.pageObjects.CheckoutPage;
+import simeongeorgiev.pageObjects.ConfirmationPage;
+import simeongeorgiev.pageObjects.OrderCheckout;
+import simeongeorgiev.pageObjects.OrderPage;
+import simeongeorgiev.pageObjects.ProductCatalogue;
 
 public class SubmitOrderTest extends BaseTest {
 

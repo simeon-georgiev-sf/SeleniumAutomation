@@ -1,4 +1,4 @@
-package SimeonTestingLearning.AbstractComponents;
+package simeongeorgiev.abstractComponents;
 
 import java.time.Duration;
 import org.openqa.selenium.By;
@@ -10,8 +10,8 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import SimeonTestingLearning.pageObjects.OrderCheckout;
-import SimeonTestingLearning.pageObjects.OrderPage;
+import simeongeorgiev.pageObjects.OrderCheckout;
+import simeongeorgiev.pageObjects.OrderPage;
 
 public class AbstractComponent {
 	

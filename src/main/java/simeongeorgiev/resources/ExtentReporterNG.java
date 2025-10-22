@@ -1,4 +1,4 @@
-package SimeonTestingLearning.resources;
+package simeongeorgiev.resources;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;

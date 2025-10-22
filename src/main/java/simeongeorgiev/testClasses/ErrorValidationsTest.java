@@ -1,15 +1,15 @@
-package SimeonTestingLearning.SeleniumFramework1;
+package simeongeorgiev.testClasses;
 
 import java.io.IOException;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import SimeonTestingLearning.TestComponents.Retry;
+import simeongeorgiev.testComponents.Retry;
 
 
-import SimeonTestingLearning.TestComponents.BaseTest;
-import SimeonTestingLearning.pageObjects.OrderCheckout;
-import SimeonTestingLearning.pageObjects.ProductCatalogue;
+import simeongeorgiev.testComponents.BaseTest;
+import simeongeorgiev.pageObjects.OrderCheckout;
+import simeongeorgiev.pageObjects.ProductCatalogue;
 
 public class ErrorValidationsTest extends BaseTest {
 

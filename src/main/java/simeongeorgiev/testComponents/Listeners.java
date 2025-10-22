@@ -1,4 +1,4 @@
-package SimeonTestingLearning.TestComponents;
+package simeongeorgiev.testComponents;
 
 import java.io.IOException;
 
@@ -12,7 +12,7 @@ import com.aventstack.extentreports.Status;
 import org.openqa.selenium.WebDriver;
 
 
-import SimeonTestingLearning.resources.ExtentReporterNG;
+import simeongeorgiev.resources.ExtentReporterNG;
 
 public class Listeners extends BaseTest implements ITestListener {
 	

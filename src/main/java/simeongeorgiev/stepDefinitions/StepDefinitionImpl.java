@@ -1,15 +1,15 @@
-package SimeonTestingLearning.stepDefinitions;
+package simeongeorgiev.stepDefinitions;
 
 import java.io.IOException;
 
 import org.testng.Assert;
 
-import SimeonTestingLearning.TestComponents.BaseTest;
-import SimeonTestingLearning.pageObjects.CheckoutPage;
-import SimeonTestingLearning.pageObjects.ConfirmationPage;
-import SimeonTestingLearning.pageObjects.LandingPage;
-import SimeonTestingLearning.pageObjects.OrderCheckout;
-import SimeonTestingLearning.pageObjects.ProductCatalogue;
+import simeongeorgiev.testComponents.BaseTest;
+import simeongeorgiev.pageObjects.CheckoutPage;
+import simeongeorgiev.pageObjects.ConfirmationPage;
+import simeongeorgiev.pageObjects.LandingPage;
+import simeongeorgiev.pageObjects.OrderCheckout;
+import simeongeorgiev.pageObjects.ProductCatalogue;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;

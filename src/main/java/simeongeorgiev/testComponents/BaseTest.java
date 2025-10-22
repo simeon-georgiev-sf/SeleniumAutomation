@@ -1,4 +1,4 @@
-package SimeonTestingLearning.TestComponents;
+package simeongeorgiev.testComponents;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -24,7 +24,7 @@ import org.testng.annotations.BeforeMethod;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import SimeonTestingLearning.pageObjects.LandingPage;
+import simeongeorgiev.pageObjects.LandingPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {

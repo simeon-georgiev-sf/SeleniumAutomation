@@ -1,4 +1,4 @@
-package SimeonTestingLearning.data;
+package simeongeorgiev.data;
 
 import java.io.File;
 import java.io.IOException;

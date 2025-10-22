@@ -1,4 +1,4 @@
-package SimeonTestingLearning.SeleniumFramework1;
+package simeongeorgiev.testClasses;
 
 import java.time.Duration;
 import java.util.List;
