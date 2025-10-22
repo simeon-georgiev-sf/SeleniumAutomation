@@ -1,9 +1,0 @@
-/Users/simeongeorgiev/GitProjects/SeleniumAutomationFramework/src/main/java/simeongeorgiev/abstractComponents/AbstractComponent.java
-/Users/simeongeorgiev/GitProjects/SeleniumAutomationFramework/src/main/java/simeongeorgiev/data/jsonReader.java
-/Users/simeongeorgiev/GitProjects/SeleniumAutomationFramework/src/main/java/simeongeorgiev/pageObjects/CheckoutPage.java
-/Users/simeongeorgiev/GitProjects/SeleniumAutomationFramework/src/main/java/simeongeorgiev/pageObjects/ConfirmationPage.java
-/Users/simeongeorgiev/GitProjects/SeleniumAutomationFramework/src/main/java/simeongeorgiev/pageObjects/LandingPage.java
-/Users/simeongeorgiev/GitProjects/SeleniumAutomationFramework/src/main/java/simeongeorgiev/pageObjects/OrderCheckout.java
-/Users/simeongeorgiev/GitProjects/SeleniumAutomationFramework/src/main/java/simeongeorgiev/pageObjects/OrderPage.java
-/Users/simeongeorgiev/GitProjects/SeleniumAutomationFramework/src/main/java/simeongeorgiev/pageObjects/ProductCatalogue.java
-/Users/simeongeorgiev/GitProjects/SeleniumAutomationFramework/src/main/java/simeongeorgiev/resources/ExtentReporterNG.java

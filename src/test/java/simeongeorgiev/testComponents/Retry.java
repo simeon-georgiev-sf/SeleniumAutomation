@@ -1,4 +1,4 @@
-package testComponents;
+package simeongeorgiev.testComponents;
 
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
