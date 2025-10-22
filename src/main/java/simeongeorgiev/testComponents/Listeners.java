@@ -2,6 +2,7 @@ package simeongeorgiev.testComponents;
 
 import java.io.IOException;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -9,13 +10,11 @@ import org.testng.ITestResult;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
-import org.openqa.selenium.WebDriver;
-
 
 import simeongeorgiev.resources.ExtentReporterNG;
 
 public class Listeners extends BaseTest implements ITestListener {
-	
+
 	ExtentReports extent = ExtentReporterNG.getReporterObject();
 	ExtentTest test;
 	ThreadLocal<ExtentTest>extentTest = new ThreadLocal();
@@ -32,7 +31,7 @@ public class Listeners extends BaseTest implements ITestListener {
 	@Override
 	public void onTestFailure(ITestResult result) {
 		extentTest.get().fail(result.getThrowable());
-		
+
 		try {
 		driver = (WebDriver) result.getTestClass().getRealClass().getField("driver").get(result.getInstance());
 		} catch (Exception e1) {

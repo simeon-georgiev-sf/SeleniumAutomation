@@ -24,8 +24,8 @@ import org.testng.annotations.BeforeMethod;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import simeongeorgiev.pageObjects.LandingPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import simeongeorgiev.pageObjects.LandingPage;
 
 public class BaseTest {
 
@@ -36,7 +36,7 @@ public class BaseTest {
 
 		Properties prop = new Properties();
 		FileInputStream fis = new FileInputStream(System.getProperty("user.dir")
-				+ "//src//main//java//SimeonTestingLearning//resources//GlobalData.properties");
+				+ "//src//main//java//simeongeorgiev//resources//GlobalData.properties");
 		prop.load(fis);
 		String browserName = System.getProperty("browser") != null ? System.getProperty("browser")
 				: prop.getProperty("browser");
@@ -44,7 +44,7 @@ public class BaseTest {
 
 		if (browserName.contains("chrome")) {
 			ChromeOptions options = new ChromeOptions();
-			WebDriverManager.chromedriver().setup();			
+			WebDriverManager.chromedriver().setup();
 			if (browserName.contains("headless")) {
 				options.addArguments("headless");
 			}
@@ -94,7 +94,7 @@ public class BaseTest {
 		List<HashMap<String, String>> data = mapper.readValue(jsonContent,
 				new TypeReference<List<HashMap<String, String>>>() {
 				});
-		return (List<HashMap<String, String>>) data;
+		return data;
 
 	}
 

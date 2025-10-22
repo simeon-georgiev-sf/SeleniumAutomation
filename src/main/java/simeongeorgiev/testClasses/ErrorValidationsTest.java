@@ -4,12 +4,11 @@ import java.io.IOException;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import simeongeorgiev.testComponents.Retry;
 
-
-import simeongeorgiev.testComponents.BaseTest;
 import simeongeorgiev.pageObjects.OrderCheckout;
 import simeongeorgiev.pageObjects.ProductCatalogue;
+import simeongeorgiev.testComponents.BaseTest;
+import simeongeorgiev.testComponents.Retry;
 
 public class ErrorValidationsTest extends BaseTest {
 

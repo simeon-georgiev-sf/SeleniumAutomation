@@ -17,13 +17,13 @@ public class jsonReader {
 		String jsonContent = FileUtils.readFileToString(
 			new File (System.getProperty("user.dir")
 				+"//src//main//java//SimeonTestingLearning//data//PurchaseOrder.json"), StandardCharsets.UTF_8);
-		
+
 		ObjectMapper mapper = new ObjectMapper();
 		List<HashMap<String,String>> data =
 				mapper.readValue(jsonContent, new TypeReference<List<HashMap<String, String>>>() {});
-		return (List<HashMap<String, String>>) data;
+		return data;
 	}
-	
+
 
 }
 

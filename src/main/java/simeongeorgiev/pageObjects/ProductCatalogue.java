@@ -25,7 +25,7 @@ public class ProductCatalogue extends AbstractComponent {
 	List<WebElement> productsList;
 	@FindBy(xpath = "//button[@routerlink='/dashboard/cart']")
 	WebElement cartBtn;
-	
+
 	By loadingOverlay = By.cssSelector(".ngx-spinner-overlay");
 	By productsBy = By.cssSelector(".mb-3");
 	By addToCart = By.cssSelector(".card-body button:last-of-type");
@@ -43,7 +43,7 @@ public class ProductCatalogue extends AbstractComponent {
 				.orElse(null);
 		return prod;
 	}
-	
+
 	public void addProductToCart(String productName) {
 		WebElement prod = getProductByName(productName);
 		waitForElementToDisAppear(loadingOverlay);

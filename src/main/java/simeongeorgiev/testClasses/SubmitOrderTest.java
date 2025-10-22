@@ -8,17 +8,16 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import simeongeorgiev.testComponents.BaseTest;
 import simeongeorgiev.pageObjects.CheckoutPage;
 import simeongeorgiev.pageObjects.ConfirmationPage;
 import simeongeorgiev.pageObjects.OrderCheckout;
 import simeongeorgiev.pageObjects.OrderPage;
 import simeongeorgiev.pageObjects.ProductCatalogue;
+import simeongeorgiev.testComponents.BaseTest;
 
 public class SubmitOrderTest extends BaseTest {
 
 	String productName = "ADIDAS ORIGINAL";
-	String testGit = "This is a test for Git";
 
 	@Test(dataProvider = "getData", groups="Purchase")
 	public void submitOrder(HashMap<String, String> input) throws IOException {
@@ -54,10 +53,10 @@ public class SubmitOrderTest extends BaseTest {
 
 	@DataProvider
 	public Object[][] getData() throws IOException {
-		List<HashMap<String, String>> data = (List<HashMap<String, String>>) getJsonDataToMap(
-				System.getProperty("user.dir") + "//src//main//java//SimeonTestingLearning//data//PurchaseOrder.json");
+		List<HashMap<String, String>> data = getJsonDataToMap(
+				System.getProperty("user.dir") + "//src//main//java//simeongeorgiev//data//PurchaseOrder.json");
 		return new Object[][] { { data.get(0) }, { data.get(1) } };
 	}
-	
+
 
 }

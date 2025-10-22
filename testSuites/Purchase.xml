@@ -9,13 +9,13 @@
 	<test thread-count="5" name="Submit Order Test">
 		<classes>
 			<class
-				name="SimeonTestingLearning.SeleniumFramework1.SubmitOrderTest" />
+				name="simeongeorgiev.testClasses.SubmitOrderTest" />
 		</classes>
 	</test>
 	<test thread-count="5" name="Error Validations Test">
 		<classes>
 			<class
-				name="SimeonTestingLearning.SeleniumFramework1.ErrorValidationsTest" />
+				name="simeongeorgiev.testClasses.ErrorValidationsTest" />
 		</classes>
 	</test>
 </suite>

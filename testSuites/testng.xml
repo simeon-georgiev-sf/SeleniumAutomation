@@ -2,18 +2,18 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite parallel="tests" name="Suite">
 	<listeners>
-		<listener class-name="SimeonTestingLearning.TestComponents.Listeners"></listener>
+		<listener class-name="simeongeorgiev.testComponents.Listeners"></listener>
 	</listeners>
 	<test thread-count="5" name="Submit Order Test">
 		<classes>
 			<class
-				name="SimeonTestingLearning.SeleniumFramework1.SubmitOrderTest" />
+				name="simeongeorgiev.testClasses.SubmitOrderTest" />
 		</classes>
 	</test>
 	<test thread-count="5" name="Error Validations Test">
 		<classes>
 			<class
-				name="SimeonTestingLearning.SeleniumFramework1.ErrorValidationsTest" />
+				name="simeongeorgiev.testClasses.ErrorValidationsTest" />
 		</classes>
 	</test>
 </suite>

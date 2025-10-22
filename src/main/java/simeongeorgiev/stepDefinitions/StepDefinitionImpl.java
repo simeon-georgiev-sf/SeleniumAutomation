@@ -4,15 +4,15 @@ import java.io.IOException;
 
 import org.testng.Assert;
 
-import simeongeorgiev.testComponents.BaseTest;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import simeongeorgiev.pageObjects.CheckoutPage;
 import simeongeorgiev.pageObjects.ConfirmationPage;
 import simeongeorgiev.pageObjects.LandingPage;
 import simeongeorgiev.pageObjects.OrderCheckout;
 import simeongeorgiev.pageObjects.ProductCatalogue;
-import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
+import simeongeorgiev.testComponents.BaseTest;
 
 public class StepDefinitionImpl extends BaseTest {
 	public LandingPage landingpage;
@@ -53,7 +53,7 @@ public class StepDefinitionImpl extends BaseTest {
 		Assert.assertTrue(confirmMessage.equalsIgnoreCase(string));
 		driver.close();
 	}
-	
+
 	@Then("{string} is displayed on the login page")
 	public void error_message_is_displayed(String string) {
 		Assert.assertEquals(string, lPage.getErrorMessage());

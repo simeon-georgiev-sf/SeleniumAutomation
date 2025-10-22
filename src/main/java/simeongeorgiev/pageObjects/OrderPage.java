@@ -18,7 +18,7 @@ public class OrderPage extends AbstractComponent {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
-	
+
 	@FindBy(xpath = "//tr/td[2]")
 	List<WebElement> orderList;
 

@@ -1,6 +1,7 @@
 package simeongeorgiev.abstractComponents;
 
 import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
@@ -14,11 +15,11 @@ import simeongeorgiev.pageObjects.OrderCheckout;
 import simeongeorgiev.pageObjects.OrderPage;
 
 public class AbstractComponent {
-	
+
 	WebDriver driver;
 	@FindBy(xpath = "//button[@routerlink='/dashboard/cart']")
 	WebElement cartBtn;
-	
+
 	@FindBy(xpath = "//button[@routerlink='/dashboard/myorders']")
 	WebElement orderHeaderBtn;
 
@@ -33,13 +34,13 @@ public class AbstractComponent {
 	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 	wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
 	} */
-	
+
 	public String waitAndGetText(By locator) {
 	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 	    WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
 	    return element.getText();
 	}
-	
+
 	public void waitForElementToAppear(By findBy) {
 	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(7));
 	wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(findBy));
@@ -49,13 +50,13 @@ public class AbstractComponent {
 	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(7));
 	wait.ignoring(StaleElementReferenceException.class).until(ExpectedConditions.invisibilityOfElementLocated(locator));
 	}
-	
+
 	public OrderCheckout goToCart() {
 		cartBtn.click();
 		OrderCheckout checkout = new OrderCheckout(driver);
 		return checkout;
 	}
-	
+
 	public OrderPage goToOrdersPage() {
 		orderHeaderBtn.click();
 		OrderPage orderPage = new OrderPage(driver);

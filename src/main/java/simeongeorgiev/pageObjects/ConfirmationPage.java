@@ -15,10 +15,10 @@ public class ConfirmationPage extends AbstractComponent {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
-	
+
 	@FindBy (css = ".hero-primary")
 	WebElement orderNum;
-	
+
 	public String getOrderMessage() {
 		return orderNum.getText();
 	}
