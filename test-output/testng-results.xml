@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-18T23:55:12 EEST" name="Default suite" finished-at="2025-10-18T23:55:43 EEST" duration-ms="30457">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:SimeonTestingLearning.cucumber.TestNGTestRunner@689604d9]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-10-18T23:55:12 EEST" name="Default test" finished-at="2025-10-18T23:55:43 EEST" duration-ms="30457">
+      <class name="SimeonTestingLearning.cucumber.TestNGTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:SimeonTestingLearning.cucumber.TestNGTestRunner@689604d9]" started-at="2025-10-18T23:55:13 EEST" name="setUpClass" finished-at="2025-10-18T23:55:13 EEST" duration-ms="686" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@57f9b467]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:SimeonTestingLearning.cucumber.TestNGTestRunner@689604d9]" started-at="2025-10-18T23:55:13 EEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-10-18T23:55:43 EEST" duration-ms="29678" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Positive test for placing and order"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Purchase an order from the eCommerce Website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:SimeonTestingLearning.cucumber.TestNGTestRunner@689604d9]" started-at="2025-10-18T23:55:43 EEST" name="tearDownClass" finished-at="2025-10-18T23:55:43 EEST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- SimeonTestingLearning.cucumber.TestNGTestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
