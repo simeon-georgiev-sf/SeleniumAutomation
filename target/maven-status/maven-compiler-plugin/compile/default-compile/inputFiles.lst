@@ -7,10 +7,3 @@
 /Users/simeongeorgiev/GitProjects/SeleniumAutomationFramework/src/main/java/simeongeorgiev/pageObjects/OrderPage.java
 /Users/simeongeorgiev/GitProjects/SeleniumAutomationFramework/src/main/java/simeongeorgiev/pageObjects/ProductCatalogue.java
 /Users/simeongeorgiev/GitProjects/SeleniumAutomationFramework/src/main/java/simeongeorgiev/resources/ExtentReporterNG.java
-/Users/simeongeorgiev/GitProjects/SeleniumAutomationFramework/src/main/java/simeongeorgiev/stepDefinitions/StepDefinitionImpl.java
-/Users/simeongeorgiev/GitProjects/SeleniumAutomationFramework/src/main/java/simeongeorgiev/testClasses/ErrorValidationsTest.java
-/Users/simeongeorgiev/GitProjects/SeleniumAutomationFramework/src/main/java/simeongeorgiev/testClasses/StandAloneTest.java
-/Users/simeongeorgiev/GitProjects/SeleniumAutomationFramework/src/main/java/simeongeorgiev/testClasses/SubmitOrderTest.java
-/Users/simeongeorgiev/GitProjects/SeleniumAutomationFramework/src/main/java/simeongeorgiev/testComponents/BaseTest.java
-/Users/simeongeorgiev/GitProjects/SeleniumAutomationFramework/src/main/java/simeongeorgiev/testComponents/Listeners.java
-/Users/simeongeorgiev/GitProjects/SeleniumAutomationFramework/src/main/java/simeongeorgiev/testComponents/Retry.java
