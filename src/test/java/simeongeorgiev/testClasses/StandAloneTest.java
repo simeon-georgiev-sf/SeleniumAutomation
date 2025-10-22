@@ -20,6 +20,7 @@ public class StandAloneTest {
 
 		@Test public void initialTest() {
 		String productName = "ADIDAS ORIGINAL";
+		String newVar="new";
 
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
