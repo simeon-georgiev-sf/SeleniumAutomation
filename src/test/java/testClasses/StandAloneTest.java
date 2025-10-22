@@ -1,4 +1,4 @@
-package simeongeorgiev.testClasses;
+package testClasses;
 
 import java.time.Duration;
 import java.util.List;

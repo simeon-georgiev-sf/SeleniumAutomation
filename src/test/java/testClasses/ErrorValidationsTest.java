@@ -1,4 +1,4 @@
-package simeongeorgiev.testClasses;
+package testClasses;
 
 import java.io.IOException;
 
@@ -7,8 +7,8 @@ import org.testng.annotations.Test;
 
 import simeongeorgiev.pageObjects.OrderCheckout;
 import simeongeorgiev.pageObjects.ProductCatalogue;
-import simeongeorgiev.testComponents.BaseTest;
-import simeongeorgiev.testComponents.Retry;
+import testComponents.BaseTest;
+import testComponents.Retry;
 
 public class ErrorValidationsTest extends BaseTest {
 

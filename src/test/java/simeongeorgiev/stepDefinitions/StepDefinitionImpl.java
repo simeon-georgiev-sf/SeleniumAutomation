@@ -12,7 +12,7 @@ import simeongeorgiev.pageObjects.ConfirmationPage;
 import simeongeorgiev.pageObjects.LandingPage;
 import simeongeorgiev.pageObjects.OrderCheckout;
 import simeongeorgiev.pageObjects.ProductCatalogue;
-import simeongeorgiev.testComponents.BaseTest;
+import testComponents.BaseTest;
 
 public class StepDefinitionImpl extends BaseTest {
 	public LandingPage landingpage;

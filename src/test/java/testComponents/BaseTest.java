@@ -1,4 +1,4 @@
-package simeongeorgiev.testComponents;
+package testComponents;
 
 import java.io.File;
 import java.io.FileInputStream;

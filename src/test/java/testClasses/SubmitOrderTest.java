@@ -1,4 +1,4 @@
-package simeongeorgiev.testClasses;
+package testClasses;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -13,7 +13,7 @@ import simeongeorgiev.pageObjects.ConfirmationPage;
 import simeongeorgiev.pageObjects.OrderCheckout;
 import simeongeorgiev.pageObjects.OrderPage;
 import simeongeorgiev.pageObjects.ProductCatalogue;
-import simeongeorgiev.testComponents.BaseTest;
+import testComponents.BaseTest;
 
 public class SubmitOrderTest extends BaseTest {
 
